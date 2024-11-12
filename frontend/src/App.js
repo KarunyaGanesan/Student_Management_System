@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Lazy loading components for improved performance
-const Home = lazy(() => import('./components/Home'));
+const Home = lazy(() => import('./components/Auth/Home'));
 const Register = lazy(() => import('./components/Auth/Register'));
 const Login = lazy(() => import('./components/Auth/Login'));
 const Profile = lazy(() => import('./components/Students/Profile'));

@@ -15,7 +15,7 @@ app.use(express.json());
 app.use('/api/students', studentRoutes); // Updated route to include the '/api' prefix
 
 // Log the MongoDB URI for debugging
-console.log('MongoDB URI:', process.env.MONGO_URI);
+// console.log('MongoDB URI:', process.env.MONGO_URI);
 
 // Connect to MongoDB without deprecated options
 mongoose.connect(process.env.MONGO_URI)

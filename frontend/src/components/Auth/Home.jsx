@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import one from '../assets/images/home1.jpg';
-import two from '../assets/images/home2.jpg';
-import three from '../assets/images/home3.jpg';
-import four from '../assets/images/home4.jpg';
-import five from '../assets/images/home5.jpg';
+import one from '../../assets/images/home1.jpg';
+import two from '../../assets/images/home2.jpg';
+import three from '../../assets/images/home3.jpg';
+import four from '../../assets/images/home4.jpg';
+import five from '../../assets/images/home5.jpg';
 
 function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
