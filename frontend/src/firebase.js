@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBApBj9ykRXr0a_G6_q39aQE_6Fy1kBZlw",
+  apiKey: "",
   authDomain: "student-management-1a6da.firebaseapp.com",
   projectId: "student-management-1a6da",
   storageBucket: "student-management-1a6da.appspot.com",
